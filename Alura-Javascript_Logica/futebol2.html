@@ -1,0 +1,33 @@
+<meta charset = "UTF-8">
+
+<script>
+
+	function pulaLinha () {
+
+     document.write("<br>");
+     document.write("<br>");
+}
+
+
+    function mostra (frase) {
+
+       document.write(frase);
+
+       pulaLinha();
+
+    }
+
+   function calculaImc (altura, peso) {
+
+   	return peso / (altura * altura);
+
+   }
+
+   var vitorias = prompt("Entre com o número de vitórias");
+   var empates = prompt("'Entre com o número de empates");
+
+   var pontos = vitorias * 3 + empates;
+
+   mostra("Os seus pontos são " + pontos);
+   
+ </script>

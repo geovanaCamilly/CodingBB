@@ -1,0 +1,69 @@
+<meta charset="UTF-8">
+
+<script>
+     
+     function pulaLinha() {
+         
+
+         document.write("<br>");
+         document.write("<br>");
+     }
+
+     function mostra (frase) {
+
+        document.write(frase);
+        pulaLinha();
+     }
+
+     var ano = 2016;
+
+     mostra("calopsita?");
+
+     mostra("Joaquim tem " + (ano - 1966) + " anos");
+
+     ano = 2017;
+
+     mostra("Barney tem " + (ano - 1976) + " anos");
+
+     
+
+     var idadeFlavio = 39;
+     var idadeJoaquim = 20;
+     var idadeBarney = 41;
+
+     var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+      
+     mostra("A média das idades é " + Math.round(media));
+ 
+     var nome = "Flávio";
+     
+     mostra("A idade de " + nome + " é " + idadeFlavio);
+
+     var nome = "Joaquim";
+
+     mostra("A idade de " + nome + " é " + idadeBarney);
+
+     mostra("somente um teste " + Math.round (3/4));
+   
+    if(imc < 18.5) {
+
+        mostra("Você está abaixo do recomendado");
+
+    }
+
+    if(imc > 35) {
+
+        mostra ("Você está acima do recomendado");
+    }
+
+    if(imc <= 35) {
+
+        if(imc >= 35) {
+
+        mostra("Seu imc está excelente!");
+
+    }
+
+}
+
+</script>
